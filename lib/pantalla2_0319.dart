@@ -8,26 +8,21 @@ class Pantalla2_0319 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Card p2 Beltrán 0319"),
-        backgroundColor: Colors.amber,
+        title: Text("pantalla2 Beltrán 0319"),
+        backgroundColor: Colors.indigo,
       ),
       body: Center(
         child: Container(
-          color: Colors.amberAccent,
-          width: double.infinity,
-          height: 300,
-          child: Card(
-            shape:
-                RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
-            color: Colors.orangeAccent,
-            margin: EdgeInsets.all(32),
-            child: Padding(
-              padding: EdgeInsets.all(16),
-              child: Text(
-                "Card 2 Beltrán",
-                style: TextStyle(color: Colors.white, fontSize: 40),
-              ),
-            ),
+          color: Colors.deepPurple,
+          constraints: BoxConstraints(
+            minHeight: 100,
+            minWidth: 200,
+            maxHeight: 300,
+            maxWidth: 300,
+          ),
+          child: Text(
+            "Card2 Beltrán",
+            style: TextStyle(fontSize: 40, color: Colors.white),
           ),
         ),
       ),
