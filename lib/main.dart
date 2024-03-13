@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:beltran0319/pantalla3_0319.dart';
 import 'package:beltran0319/pantalla2_0319.dart';
 import 'package:beltran0319/pantalla1_0319.dart';
 import 'package:beltran0319/pantallainicial_0319.dart';
@@ -17,6 +18,7 @@ class MiApp0319 extends StatelessWidget {
         "/": (context) => Pantallainicial_0319(),
         "/pantalla1_0319": (context) => Pantalla1_0319(),
         "/pantalla2_0319": (context) => Pantalla2_0319(),
+        "/pantalla3_0319": (context) => Pantalla3_0319(),
       }, //rutas
     ); //materialapp
   } //fin widget
