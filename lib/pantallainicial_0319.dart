@@ -20,12 +20,23 @@ class Pantallainicial_0319 extends StatelessWidget {
                 Navigator.pushNamed(context, "/pantalla1_0319");
               },
               child: Text("Mover a pantalla1"),
+              style:
+                  ElevatedButton.styleFrom(backgroundColor: Color(0xff608b72)),
             ),
             ElevatedButton(
               onPressed: () {
                 Navigator.pushNamed(context, "/pantalla2_0319");
               },
               child: Text("Mover a pantalla2"),
+              style:
+                  ElevatedButton.styleFrom(backgroundColor: Colors.lightGreen),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pushNamed(context, "/pantalla3_0319");
+              },
+              child: Text("Mover a pantalla3"),
+              style: ElevatedButton.styleFrom(backgroundColor: Colors.green),
             ),
           ], //niños widget
         ),
